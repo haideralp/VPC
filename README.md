@@ -2,6 +2,7 @@
 
 ## Simplistic Diagram Showcasing a VPC Setup 
 
+![image](https://user-images.githubusercontent.com/97620055/187453313-f807d123-617a-4408-8d8c-b4335c22a1ff.png)
 
 ## Key Features of VPC:
 
@@ -16,3 +17,21 @@
 
 ### Gateways and endpoints
     - A gateway connects your VPC to another network. For example, use an internet gateway to connect your VPC to the internet. Use a VPC endpoint to connect to AWS services privately, without the use of an internet gateway or NAT device.
+
+### Classless Inter-Domain Routing Blocks (CIDR) 
+
+- Classless Inter-Domain Routing (CIDR) blocks are for specifying a range to IP addresses in format of IPv4 or IPv6. For the sake of simplicity I will explain rest of this in format of IPv4 however it is applicable to IPv6.
+
+- **General format for CIDR Blocks: x.y.z.t/p**
+
+- x, y, z and t are numbers from **0 to 255**. Basically, each represents an 8 bit binary number. That's why it is range is up to 255. Combination of this numbers becomes an IPv4 IP address that must be unique to be able to identify a specific instance.
+
+- In case of AWS, p is a number from 16 to 28. It represents the number of bits that are inherited from given IP address. For example: 10.0.0.0/16 represents an IP address in following format: 10.0.x.y where x and y are any number from 0 to 255. So, actually it represents a range of IP addresses, starting from 10.0.0.0 to 10.0.255.255.
+
+- However for each CIDR block, AWS prohibits 5 possible IP addresses. Those are the first 4 available addresses and the last available address. In this case:
+
+1. 10.0.0.0: Network address
+2. 10.0.0.1: Reserved for VPC router
+3. 10.0.0.2: DNS server
+4. 10.0.0.3: Reserved for future use
+5. 10.0.255.255: Network broadcast
