@@ -8,17 +8,22 @@
 ## Key Features of VPC:
 
 ### Virtual private clouds (VPC)
-    - VPC is a virtual network that resembles a traditional network that you would operate in your own data centre. After creation, you can add subnets. 
+
+- VPC is a virtual network that resembles a traditional network that you would operate in your own data centre. After creation, you can add subnets. 
     
 ### Subnets
-  - A subnet is a range of IP addresses in your VPC. A subnet must reside in a single Availability Zone. After you add subnets, you can deploy AWS resources in your VPC.
+
+- A subnet is a range of IP addresses in your VPC. A subnet must reside in a single Availability Zone. After you add subnets, you can deploy AWS resources in your VPC.
 ### IP addressing
-  - You can assign IPv4 addresses and IPv6 addresses to your VPCs and subnets. You can also bring your public IPv4 and IPv6 GUA addresses to AWS and allocate them to resources in your VPC, such as EC2 instances, NAT gateways, and Network Load Balancers.
+
+- You can assign IPv4 addresses and IPv6 addresses to your VPCs and subnets. You can also bring your public IPv4 and IPv6 GUA addresses to AWS and allocate them to resources in your VPC, such as EC2 instances, NAT gateways, and Network Load Balancers.
 ### Routing
-    - Route tables dictate where traffic from your subnet or gateway is directed. 
+
+- Route tables dictate where traffic from your subnet or gateway is directed. 
 
 ### Gateways and endpoints
-    - A gateway connects your VPC to another network. For example, use an internet gateway to connect your VPC to the internet. Use a VPC endpoint to connect to AWS services privately, without the use of an internet gateway or NAT device.
+
+- A gateway connects your VPC to another network. For example, use an internet gateway to connect your VPC to the internet. Use a VPC endpoint to connect to AWS services privately, without the use of an internet gateway or NAT device.
 
 ### Classless Inter-Domain Routing Blocks (CIDR) 
 
@@ -28,7 +33,7 @@
 
 - x, y, z and t are numbers from **0 to 255**. Basically, each represents an 8 bit binary number. That's why it is range is up to 255. Combination of this numbers becomes an IPv4 IP address that must be unique to be able to identify a specific instance.
 
-- In case of AWS, p is a number from 16 to 28. It represents the number of bits that are inherited from given IP address. For example: 10.0.0.0/16 represents an IP address in following format: 10.0.x.y where x and y are any number from 0 to 255. So, actually it represents a range of IP addresses, starting from 10.0.0.0 to 10.0.255.255.
+- In case of AWS, **p is a number from 16 to 28**. It represents the number of bits that are inherited from given IP address. For example: 10.0.0.0/16 represents an IP address in following format: 10.0.x.y where x and y are any number from 0 to 255. So, actually it represents a range of IP addresses, starting from 10.0.0.0 to 10.0.255.255.
 
 - However for each CIDR block, AWS prohibits 5 possible IP addresses. Those are the first 4 available addresses and the last available address. In this case:
 
