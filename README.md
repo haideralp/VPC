@@ -2,7 +2,8 @@
 
 ## Simplistic Diagram Showcasing a VPC Setup 
 
-![image](https://user-images.githubusercontent.com/97620055/187453313-f807d123-617a-4408-8d8c-b4335c22a1ff.png)
+![image](https://user-images.githubusercontent.com/97620055/187454523-c202d355-5bef-45ca-99b3-99602b16fce0.png)
+
 
 ## Key Features of VPC:
 
