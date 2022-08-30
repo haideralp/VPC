@@ -29,7 +29,7 @@
 
 - Classless Inter-Domain Routing (CIDR) blocks are for specifying a range to IP addresses in format of IPv4 or IPv6. For the sake of simplicity I will explain rest of this in format of IPv4 however it is applicable to IPv6.
 
-- **General format for CIDR Blocks: x.y.z.t/p**
+     **General format for CIDR Blocks: x.y.z.t/p**
 
 - x, y, z and t are numbers from **0 to 255**. Basically, each represents an 8 bit binary number. That's why it is range is up to 255. Combination of this numbers becomes an IPv4 IP address that must be unique to be able to identify a specific instance.
 
