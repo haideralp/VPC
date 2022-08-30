@@ -8,7 +8,7 @@
 ## Key Features of VPC:
 
 ### Virtual private clouds (VPC)
-    - VPC -  is virtual network that resembles a traditional network that you would operate in your own data centre. After creation, you can add subnets. 
+    - VPC is a virtual network that resembles a traditional network that you would operate in your own data centre. After creation, you can add subnets. 
     
 ### Subnets
   - A subnet is a range of IP addresses in your VPC. A subnet must reside in a single Availability Zone. After you add subnets, you can deploy AWS resources in your VPC.
