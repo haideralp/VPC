@@ -13,7 +13,7 @@
 ### IP addressing
   - You can assign IPv4 addresses and IPv6 addresses to your VPCs and subnets. You can also bring your public IPv4 and IPv6 GUA addresses to AWS and allocate them to resources in your VPC, such as EC2 instances, NAT gateways, and Network Load Balancers.
 ### Routing
-    - Use route tables to determine where network traffic from your subnet or gateway is directed.
+    - Route tables dictate where traffic from your subnet or gateway is directed. 
 
 ### Gateways and endpoints
     - A gateway connects your VPC to another network. For example, use an internet gateway to connect your VPC to the internet. Use a VPC endpoint to connect to AWS services privately, without the use of an internet gateway or NAT device.
