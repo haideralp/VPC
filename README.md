@@ -7,7 +7,7 @@
 
 ## Key Features of VPC:
 
-### Virtual private clouds (VPC)
+### Virtual Private Cloud (VPC)
 
 - VPC is a virtual network that resembles a traditional network that you would operate in your own data centre. After creation, you can add subnets. 
     
