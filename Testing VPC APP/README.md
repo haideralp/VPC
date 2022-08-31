@@ -35,7 +35,7 @@
   
  ## Step 4: Stop & Relaunch NPM with Data Being Seeded
  
- 1. Stop pre-existing NPM service running using commands as follows: 
+ 1. Stop pre-existing NPM service running using commands as below: 
      * `sudo systemctl disable npm.service`
      * `sudo systemctl stop npm.service` / `sudo systemctl kill npm.service`
  
