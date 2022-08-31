@@ -97,9 +97,20 @@
 
 - A route table contains a set of rules, called routes, that determine where network traffic from your subnet or gateway is directed. This is created as shown below:
 
+![image](https://user-images.githubusercontent.com/97620055/187688341-19ae0226-83a6-4804-a86b-c73991219bff.png)
 
 
 - The relevant subnets are then associated to this route table under the option edit routes. See below:
+
+![image](https://user-images.githubusercontent.com/97620055/187688703-d0ce50ad-7d58-4a68-a784-efc55c90f8e6.png)
+
+- Here you add the IG created with **0.0.0.0/16** - this will allow internet from outside into your VPC region. 
+
+![image](https://user-images.githubusercontent.com/97620055/187689675-cd8f29d6-eb75-44bb-8286-676441c8628c.png)
+
+- In your route table, you go to tab > **subnet association** then > **edit subnet associations**. Select the public and private subnet associations to your table and save. As shown below:
+
+![image](https://user-images.githubusercontent.com/97620055/187690457-1da44288-3993-4249-9fb5-6aec3a3b0ca0.png)
 
 
 
