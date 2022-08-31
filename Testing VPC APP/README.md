@@ -33,7 +33,7 @@
   * `source ~/.bashrc` (need to source file to reload new information)
   * `printenv DB_HOST` (check environment has been made persistent)
   
- ## Step 4: Stop & Relaunc NPM with Data Being Seeded
+ ## Step 4: Stop & Relaunch NPM with Data Being Seeded
  
  1. Stop pre-existing NPM service running using commands as follows: 
      * `sudo systemctl disable npm.service`
