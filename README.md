@@ -41,3 +41,7 @@
 3. 10.0.0.2: DNS server
 4. 10.0.0.3: Reserved for future use
 5. 10.0.255.255: Network broadcast
+
+## Creating CIDR Blocks In AWS
+
+## Network Access Control List vs Security Groups
