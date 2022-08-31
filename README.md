@@ -55,8 +55,21 @@
 ![image](https://user-images.githubusercontent.com/97620055/187668462-6f39dc56-58ae-4e6c-aef7-04d2dd70f19d.png)
 
 
-## Creating VPC In AWS
+### Step 1: Creating VPC With CIDR Block In AWS
 
+- The first step to create the diagram model on AWS is to create a VPC. So under **VPC** services. Navigate and create VPC as shown in screenshot below. Specifying name and IPv4 CIDR address. This serves as a postcode address for the VPC within availability zone.  
+
+![image](https://user-images.githubusercontent.com/97620055/187682048-41c78e8d-4c9b-4df0-8c56-14bcc8159e6b.png)
+
+- Once created it will show like this below:
+
+![image](https://user-images.githubusercontent.com/97620055/187682312-ddcaae13-6801-43d3-81b9-0c252d492d1c.png)
+
+### Step 2: Internet Gateway (IG) Creation
+
+- We then create an internet gateway that will serve as a door between VPC and the outside (public) world. See below:
+
+![image](https://user-images.githubusercontent.com/97620055/187682670-8e9ca75f-5ef4-4bc7-adef-03f823d9cafd.png) 
 
 
 
