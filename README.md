@@ -118,3 +118,7 @@
 
 ![image](https://user-images.githubusercontent.com/97620055/187706333-cd921621-f35b-47ba-9401-dc676d0cc62a.png)
 
+
+### Subnet Association - Private 
+
+![image](https://user-images.githubusercontent.com/97620055/187706899-494f7bc9-8682-4a1e-a0f4-e96bdfa9fbf0.png)
