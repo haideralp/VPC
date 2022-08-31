@@ -114,4 +114,7 @@
 
 
 
+## Private Subnet - DB
+
+![image](https://user-images.githubusercontent.com/97620055/187706333-cd921621-f35b-47ba-9401-dc676d0cc62a.png)
 
