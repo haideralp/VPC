@@ -83,10 +83,24 @@
 
 ![image](https://user-images.githubusercontent.com/97620055/187683772-3fbd319d-f5b2-47fd-b756-3513eb523e3b.png)
 
-### Step 3: Create the Public Subnet
+### Step 3: Create the Public Subnet  
 
-- We then go on create public subnet with relevant configurations, this is specific to where app/instance is present in the VPC. 
+- We then go on create public subnet with relevant configurations, this is specific to where app/instance is present in the VPC. **10.0.9.0/24** - using CIDR block address for the subnet in my example.  
 
-![image](https://user-images.githubusercontent.com/97620055/187684652-f26a0e3e-33ea-4f93-816b-b58969ad9ce8.png)
+![image](https://user-images.githubusercontent.com/97620055/187685556-245bbe08-9d19-481d-871e-d2356d7d1293.png)
+
+- If created successfuly, it will show as belwo on AWS management console.
+
+![image](https://user-images.githubusercontent.com/97620055/187685923-8475f71a-ac29-4ff9-a3a0-ea5048354971.png)
+
+### Step 4: Creation of Route Tables (RT) with Subnet Associations
+
+- A route table contains a set of rules, called routes, that determine where network traffic from your subnet or gateway is directed. This is created as shown below:
+
+
+
+- The relevant subnets are then associated to this route table under the option edit routes. See below:
+
+
 
 
