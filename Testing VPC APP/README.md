@@ -17,6 +17,7 @@
   
   - Launchd DB instance with ami but with vpc network settings as below:
   
+  ![image](https://user-images.githubusercontent.com/97620055/187746583-b5e51eb7-f4f0-462b-a8d5-5a8084985436.png)
 
 ## Step 4: Security group configuration for DB instance.
 
@@ -25,9 +26,26 @@
 ![image](https://user-images.githubusercontent.com/97620055/187739716-6ae8e3c3-383d-4198-9245-1714e2b27e62.png)
 
 
-
 ## Step 3: Environmental Setup In App
 
   - SSH into the APP instance and run the following commands in order:
+  i. `sudo echo export DB_HOST="mongodb://Private-IPV4-DB:27017/posts" >> ~/.bashrc` ( Connects to mongodb with given ip that connects to posts)
+  ii. `source ~/.bashrc` (need to source file to reload new information)
+  iii. `printenv DB_HOST` (check environment has been made persistent)
   
+ ## Step 4: Stop & Relaunc NPM with Data Being Seeded
+ 
+ 1. Stop pre-existing NPM service running using commands as follows: 
+    - * `sudo systemctl disable npm.service`
+    - * `sudo systemctl stop npm.service` / `sudo systemctl kill npm.service`
+ 
+ 2. Data Extraction from Seeds Folder
+    - * In seeds folder, `node seed.js`
+ 3. Restart App from App folder
+    - * Start app > `npm start`
+    
+    
+    
+
+
   
