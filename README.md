@@ -114,7 +114,9 @@
 
 
 
-## Private Subnet - DB
+## Step 5. Creating Private Subnet for Database (DB)
+
+- Once the public subnet setup is configured for the app and it has launched with app running and fibonacci page, the private subnet for DB is then configured as follows: 
 
 ![image](https://user-images.githubusercontent.com/97620055/187706333-cd921621-f35b-47ba-9401-dc676d0cc62a.png)
 
