@@ -36,13 +36,13 @@
  ## Step 4: Stop & Relaunc NPM with Data Being Seeded
  
  1. Stop pre-existing NPM service running using commands as follows: 
-    - * `sudo systemctl disable npm.service`
-    - * `sudo systemctl stop npm.service` / `sudo systemctl kill npm.service`
+     * `sudo systemctl disable npm.service`
+     * `sudo systemctl stop npm.service` / `sudo systemctl kill npm.service`
  
  2. Data Extraction from Seeds Folder
-    - * In seeds folder, `node seed.js`
+     * In seeds folder, `node seed.js`
  3. Restart App from App folder
-    - * Start app > `npm start`
+     * Start app > `npm start`
     
     
     
