@@ -45,3 +45,7 @@
 ## Creating CIDR Blocks In AWS
 
 ## Network Access Control List vs Security Groups
+
+
+![image](https://user-images.githubusercontent.com/97620055/187655505-1986e454-5a8d-48f3-b66b-200b7b9e5677.png)
+
