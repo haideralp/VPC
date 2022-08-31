@@ -49,3 +49,14 @@
 
 ![image](https://user-images.githubusercontent.com/97620055/187655505-1986e454-5a8d-48f3-b66b-200b7b9e5677.png)
 
+## Diagram Showcasing VPC & Subnets Creation
+
+
+![image](https://user-images.githubusercontent.com/97620055/187668462-6f39dc56-58ae-4e6c-aef7-04d2dd70f19d.png)
+
+
+## Creating VPC In AWS
+
+
+
+
