@@ -29,9 +29,9 @@
 ## Step 3: Environmental Setup In App
 
   - SSH into the APP instance and run the following commands in order:
-  i. `sudo echo export DB_HOST="mongodb://Private-IPV4-DB:27017/posts" >> ~/.bashrc` ( Connects to mongodb with given ip that connects to posts)
-  ii. `source ~/.bashrc` (need to source file to reload new information)
-  iii. `printenv DB_HOST` (check environment has been made persistent)
+  * `sudo echo export DB_HOST="mongodb://Private-IPV4-DB:27017/posts" >> ~/.bashrc` ( Connects to mongodb with given ip that connects to posts)
+  * `source ~/.bashrc` (need to source file to reload new information)
+  * `printenv DB_HOST` (check environment has been made persistent)
   
  ## Step 4: Stop & Relaunc NPM with Data Being Seeded
  
