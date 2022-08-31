@@ -121,6 +121,12 @@
 ![image](https://user-images.githubusercontent.com/97620055/187706333-cd921621-f35b-47ba-9401-dc676d0cc62a.png)
 
 
-### Subnet Association - Private 
+## Step 6. Private Subnet Association In Route Table
 
-![image](https://user-images.githubusercontent.com/97620055/187706899-494f7bc9-8682-4a1e-a0f4-e96bdfa9fbf0.png)
+- A seperate route table is created to serve private subnet region. A route table by default is private, we make it public with 0.0.0.0/0. In this case because DB is within a private subnet we just leave the VPC CIRD Block address. See below:
+
+![image](https://user-images.githubusercontent.com/97620055/187734732-0c24c9a6-3a14-4e47-897a-b241858c0216.png)
+
+- Just a quick overiew of two route tables created for public and private subnet models
+
+![image](https://user-images.githubusercontent.com/97620055/187735125-f3350ddc-751b-4a03-b04c-723300c4b5f5.png)
