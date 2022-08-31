@@ -44,7 +44,17 @@
  3. Restart App from App folder
      * Start app > `npm start`
     
-    
+    ![image](https://user-images.githubusercontent.com/97620055/187749985-2b940a21-759d-42ea-8323-cf285acebc07.png)
+
+
+## Result: App Working Displaying All Three Pages !
+
+![image](https://user-images.githubusercontent.com/97620055/187750477-5aac42df-1448-4f0c-93ff-19db1894b1be.png)
+
+![image](https://user-images.githubusercontent.com/97620055/187750919-1ad00362-7861-43ff-8134-b818ae4eed13.png)
+
+![image](https://user-images.githubusercontent.com/97620055/187751192-507c279f-41fd-452e-b101-a005411ff0ca.png)
+
     
 
 
