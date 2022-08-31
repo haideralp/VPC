@@ -71,5 +71,22 @@
 
 ![image](https://user-images.githubusercontent.com/97620055/187682670-8e9ca75f-5ef4-4bc7-adef-03f823d9cafd.png) 
 
+- Once created we then attach IG (install door) to the VPC as below
+
+![image](https://user-images.githubusercontent.com/97620055/187683304-67f21c2a-133e-4978-9319-5d66ddee8e12.png)
+
+- Specify the VPC, in this example searched eng122-haider-vpc --> id is displayed specific to my VPC.
+
+![image](https://user-images.githubusercontent.com/97620055/187683602-76697a72-9a0c-4e61-a473-48b98af951bc.png)
+
+- Once confirmed the status will change from detached to attached as below:
+
+![image](https://user-images.githubusercontent.com/97620055/187683772-3fbd319d-f5b2-47fd-b756-3513eb523e3b.png)
+
+### Step 3: Create the Public Subnet
+
+- We then go on create public subnet with relevant configurations, this is specific to where app/instance is present in the VPC. 
+
+![image](https://user-images.githubusercontent.com/97620055/187684652-f26a0e3e-33ea-4f93-816b-b58969ad9ce8.png)
 
 
